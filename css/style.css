@@ -35,6 +35,18 @@
     position: absolute;
     width: 550px;
     animation: cloud-animation 25s infinite linear;
+    z-index: 9;
+}
+
+.game-over{
+    position: absolute;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+    justify-content: center;
+    z-index: 10;
+    bottom: 50;
 }
 
 @keyframes pipe-animation {
