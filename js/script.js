@@ -37,6 +37,7 @@ const loop = setInterval(() => {
 
 
         clearInterval(loop);
+
     }
         
 }, 10);
